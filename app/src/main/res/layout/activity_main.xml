@@ -21,9 +21,11 @@
         android:id="@+id/imageView"
         android:layout_width="355dp"
         android:layout_height="454dp"
-        app:srcCompat="@drawable/raccoon"
-        tools:layout_editor_absoluteX="-63dp"
-        tools:layout_editor_absoluteY="390dp" />
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/raccoon" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
